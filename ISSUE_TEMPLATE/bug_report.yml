@@ -1,0 +1,54 @@
+name: "🐛 Bug Report"
+description: "Report a bug or unexpected behavior in a Yess Bangla application or repository"
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an issue! Please provide as much context as possible to help us reproduce and resolve it quickly.
+
+  - type: input
+    id: component
+    attributes:
+      label: "Component / Subsystem"
+      description: "Which part of the application or platform is affected? (e.g. Shondhaan App, Mart, Service Flow, Identity, API)"
+      placeholder: "e.g. Shondhaan Mobile (Home Services Flow)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Describe the Bug"
+      description: "A clear and concise description of what the bug is."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: "Steps to Reproduce"
+      description: "Steps to reproduce the behavior."
+      placeholder: |
+        1. Go to '...'
+        2. Tap on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Expected Behavior"
+      description: "What did you expect to happen?"
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: "Environment Details"
+      description: "Device model, OS version, Flutter/Node version, etc."
+      placeholder: "e.g. Android 14 (Samsung A528B), Flutter 3.47"
