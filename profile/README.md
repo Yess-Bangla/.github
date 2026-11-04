@@ -73,7 +73,7 @@ Operating across **13 sovereign subsidiaries** and supported by **500+ team memb
 
 ### 🏗️ Mobile Engineering Architecture
 The Shondhaan mobile application represents modern Flutter engineering at enterprise scale:
-* **UI/UX Paradigm:** Pathao-inspired Super-App UI with floating glass capsules (`BackdropFilter` sigma-12 blur), dual-layer ambient elevation, and 100% interactive affordances.
+* **UI/UX Paradigm:** Modern Hyperlocal Super-App design with floating glass capsules (`BackdropFilter` sigma-12 blur), dual-layer ambient elevation, and 100% interactive affordances.
 * **Bengali-First Localization:** Deep typography integration using **Hind Siliguri**, localized Bengali numerals (`৳ ১,২৫০`), and bilingual toggle support.
 * **Modern State & Navigation:** Powered by **Riverpod 2.6** for reactive state isolation and **GoRouter 14.8** for declarative deep-linking and subscreen routing.
 * **Microservice Backend Mesh:** High-performance, decoupled microservices for Identity, Services (`backend-yservice`), Mart (`backend-ymart`), Deals (`backend-deal`), and Career (`backend-yjob`).
